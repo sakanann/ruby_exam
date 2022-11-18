@@ -53,7 +53,7 @@ class Janken
       #「true」を返してじゃんけんを繰り返し実行させます。
       # ヒント：「return」を使って戻り値を返すことができます。しかし、Rubyでは戻り値を返す場合、「return」を省略するのが一般的です。
     elsif # もしも下記の組み合わせだった場合
-      (player_hand == 0 && enemy_hand == 1) || (player_hand == 1 && enemy_hand == 2) || (player_hand == 2 && enemy_hand == 0)
+      (player_hand == "0" && enemy_hand == "1") || (player_hand == "1" && enemy_hand == "2") || (player_hand == "2" && enemy_hand == "0")
       #「あなたの勝ちです」を出力します。
       puts "あなたの勝ちです"
       #「false」を返してじゃんけんを終了させます。
